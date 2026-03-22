@@ -3,7 +3,6 @@ import cv2 as cv
 import os
 import glob
 import matplotlib.pyplot as plt
-import numpy as np
 
 img_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'img')
 images = glob.glob(os.path.join(img_dir, '*.*'))
